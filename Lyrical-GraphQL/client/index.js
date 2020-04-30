@@ -1,11 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { Router, Route, hashHistory, IndexRoute } from 'react-router';
-import ApolloClient from 'apollo-client';
-import { ApolloProvider } from 'react-apollo';
+import React from "react";
+import ReactDOM from "react-dom";
+import { Router, Route, hashHistory, IndexRoute } from "react-router";
+import ApolloClient from "apollo-client";
+import { ApolloProvider } from "react-apollo";
 
-import App from './components/App';
-import SongList from './components/SongList';
+import App from "./components/App";
+import SongList from "./components/SongList";
 
 const client = new ApolloClient({});
 
@@ -21,7 +21,4 @@ const Root = () => {
   );
 };
 
-ReactDOM.render(
-  <Root />,
-  document.querySelector('#root')
-);
+ReactDOM.render(<Root />, document.querySelector("#root"));
