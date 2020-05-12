@@ -27,7 +27,6 @@
     "express-session": "^1.15.0",
     "graphql": "^0.8.2",
     "graphql-tag": "^1.2.4",
-    "html-webpack-plugin": "^2.26.0",
     "lodash": "^4.17.4",
     "mongoose": "^5.9.13",
     "passport": "^0.3.2",
@@ -38,5 +37,8 @@
     "react-router": "^3.0.2",
     "webpack": "^4.43.0",
     "webpack-dev-middleware": "^1.9.0"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^2.30.1"
   }
 }
