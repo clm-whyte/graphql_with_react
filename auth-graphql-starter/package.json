@@ -16,7 +16,7 @@
     "@babel/core": "^7.9.6",
     "@babel/preset-env": "^7.9.6",
     "@babel/preset-react": "^7.9.4",
-    "apollo-client": "^0.8.7",
+    "apollo-client": "^2.6.10",
     "axios": "^0.19.2",
     "babel-loader": "^8.1.0",
     "bcrypt-nodejs": "0.0.3",
