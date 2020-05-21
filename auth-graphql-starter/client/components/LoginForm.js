@@ -18,7 +18,9 @@ class LoginForm extends Component {
         refetchQueries: [{ query }],
       })
       .catch((res) => {
-        const errors = res.graphQLErrors.map((error) => error.message);
+        const errors = res.graphQLErrors.map(
+          (error) => error.message.match(/"([^"]+)"/)[1]
+        );
         this.setState({ errors });
       });
   }
